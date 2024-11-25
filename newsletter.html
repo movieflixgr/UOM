@@ -43,7 +43,10 @@
     <script>
         function goBack() {
             // This will redirect the user back to the previous page in the browser history
-            window.history.back();
+            window.history.back();.
+            setTimeout(function() {
+                window.history.back();
+            }, 5000); // Redirect after 5 seconds
         }
     </script>
 
